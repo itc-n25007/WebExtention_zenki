@@ -1,0 +1,28 @@
+@charset "UTF-8";
+html {
+    font-size: 100%;
+}
+body {
+  background-color: #fee;
+}
+h1 {
+  font-size: 2rem;
+  font-family: serif;
+  color: #0bd;
+  background-color: #faa;
+}
+h2 {
+  font-size: 20px;
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+  color: navy;
+}
+p {
+  /*font-family: "ヒラギノ丸ゴ pro W4", "Hiragino Maru Gothic Pro", sans-serif;/*
+  /*line-height: 1.7;/*
+  text-align: justify;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: rgba(10, 130, 165, 0.5);
+}
