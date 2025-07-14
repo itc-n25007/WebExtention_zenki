@@ -1,0 +1,41 @@
+body {
+    background-image: url(images/anonimasu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+p {
+   border-width: thick;
+   border-style: solid;
+   border-color: tomato;
+   color: #999;
+}
+
+#orange {
+  color: #fa2;
+}
+
+.blue {
+  color: #0bd;
+}
+
+div {
+    background: #f0f8ff;
+    width: 500px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 40px;
+    border-width: 1px 4px 8px 12px;
+    border-style: solid;
+    border-color: tan #0bd tomato #000;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: hiragana;
+}
