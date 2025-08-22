@@ -1,0 +1,32 @@
+body {
+     background-image: url(images/cute.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.center {
+     margin-top: 30px;
+     margin-left: 400px;
+}
+
+.center2 {
+     margin-left: 500px;
+}
+
+.picture {
+     margin-left: 250px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+div {
+    background: #f0ffff;
+    margin-top: 30px;
+    margin-right: 300px;
+}
