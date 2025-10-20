@@ -33,7 +33,8 @@ img {
     font-weight: normal;
 }
 .page-title,
-.heading-large {
+.heading-large,
+.heading-medium {
     font-size: 3rem;
     text-align: center;
 }
@@ -153,7 +154,7 @@ img {
 }
 .post p {
     margin-bottom: 1.5rem;
-    line-height 2;
+    line-height: 2;
 }
 
 /* フッター
