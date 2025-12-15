@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  background-color: #d9ecf7;
+}
+
+/*画面中央に寄せる*/
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.form-wrap {
+  width: 400px;
+  margin: 50px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  text-align: center;
+}
+
+input[type="submit"] {
+  padding: 10px 30px;
+  cursor: pointer;
+}
