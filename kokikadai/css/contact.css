@@ -1,0 +1,89 @@
+/* 全体 */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+}
+
+/* ナビ */
+.header {
+  background: #9e9e9e;
+  padding: 10px 40px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  /*justify-content: center;
+  flex: 1;*/
+  list-style: none;
+  padding: 0;
+}
+
+.nav li {
+  margin-right: 20px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* お問い合わせ */
+.contact {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.contact h1 {
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+/* フォーム */
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* 送信ボタン */
+.contact-form button {
+  padding: 10px 40px;
+  background: #666;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  opacity: 0.8;
+}
+
+/* フッター */
+.footer {
+  background: #9e9e9e;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
