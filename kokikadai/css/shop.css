@@ -51,11 +51,34 @@ body {
 
 /* 商品一覧*/
 .products {
-  display: flex;
-  flex-wrap: wrap; /*折り返し*/
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /*flex-wrap: wrap; /*折り返し*/
   justify-content: center; /*中央寄せ*/
-  gap: 3rem 2rem; /*商品の間隔*/
-  padding: 40px;
+  gap: 30px; /*商品の間隔*/
+  padding: 50px 0;
+  /*max-width: 5000px;
+  margin: 40px auto;*/
+}
+
+.product {
+  text-align: center;
+  transition: transform 0.2;
+}
+
+.product img {
+  width: 100%;
+  max-width: 150px;
+}
+
+.product-link {
+  color: #000;
+  text-decoration: none;
+  display: block;
+}
+
+.product:hover {
+  transform: scale(1.05);
 }
 
 @media (max-width: 768px) {

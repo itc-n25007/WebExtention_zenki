@@ -32,17 +32,18 @@ body {
 
 /* メインビジュアル　*/
 .hero {
-  height: 300px;
-  background-image: url("images/dotore.jpeg");
-  background-size: cover;
-  /* background-position: center; */
-  background-repeat: no-repeat;
-  background: linear-gradient(120deg, #b7dfe8, #a7cfa7, #f2b58f);
+  height: 500px; /*高さ*/
+  background-image: url("../images/anonimasu2.webp");
+  background-size: cover; /*画面いっぱい*/
+  background-position: center; /*中央寄せ*/
+  /*background-repeat: no-repeat;*/
+  /*background: linear-gradient(120deg, #b7dfe8, #a7cfa7, #f2b58f);*/
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* align-items: center;*/
+  /*flex-direction: column;*/
+  /*justify-content: center;*/
+  align-items: center;
   padding-left: 50px;
+  color: #000;
 }
 
 .hero h1 {
@@ -60,11 +61,22 @@ body {
 
 .product {
   text-align: center;
+  transition: transform 0.2;
 }
 
 .product img {
   width: 100%;
   max-width: 150px;
+}
+
+.product-link {
+  color: #000;
+  text-decoration: none;
+  display: block;
+}
+
+.product:hover {
+  transform: scale(1.05);
 }
 
 /* フッター */
