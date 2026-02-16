@@ -95,3 +95,45 @@
   align-items: center;
   padding: 15px;
 }
+
+/*スマホ対応*/
+@media screen and (max-width: 768px) {
+  /*ナビ*/
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav ul {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .cart {
+    align-self: flex-end;
+  }
+
+  /*全体*/
+  .detail {
+    padding: 20px;
+  }
+
+  /*メイン画像*/
+  .main-image img {
+    width: 80%;
+    max-width: 250px;
+    padding: 10px;
+  }
+
+  /*サムネイル*/
+  .thumbnails {
+    gap: 10px;
+  }
+
+  .thumbnails img {
+    width: 70px;
+    padding: 6px;
+  }
+
+  /* テーブル*/
+}

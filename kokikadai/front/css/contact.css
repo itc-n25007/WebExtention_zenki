@@ -85,5 +85,54 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 15px;
+  padding: 100px;
+}
+
+/* ===　スマホ対応 === */
+@media screen and (max-width: 768px) {
+  /* ナビを縦並び　*/
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav li {
+    margin: 5px 10px;
+  }
+
+  .nav-right {
+    align-self: flex-end;
+  }
+
+  /* お問い合わせ全体*/
+  .contact {
+    padding: 40px 15px;
+  }
+
+  /*タイトル*/
+  .contact h2 {
+    font-size: 22px;
+  }
+
+  /*フォーム*/
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 16px; /*スマホで入力しやすく*/
+  }
+
+  /*ボタン*/
+  .contact-form button {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+  }
 }

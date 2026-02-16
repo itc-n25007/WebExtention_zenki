@@ -86,3 +86,40 @@ body {
   text-align: center;
   padding: 15px;
 }
+
+/*スマホ用（画面幅768px以下）　*/
+@media screen and (max-width: 768px) {
+  /*ヘッダー*/
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav ul {
+    justify-content: center;
+  }
+
+  .cart {
+    align-self: flex-end;
+  }
+
+  /*メインビジュアル*/
+  .hero {
+    height: 300px;
+    padding-left: 20px;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  /*商品一覧：２列*/
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 20px;
+  }
+
+  .product img {
+    max-width: 120px;
+  }
+}
